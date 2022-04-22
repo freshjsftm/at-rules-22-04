@@ -1,0 +1,6 @@
+*{
+  box-sizing: border-box;
+}
+h1{
+  border-bottom: 5px solid #333;
+}

@@ -1,17 +1,12 @@
 @charset 'utf-8';
 /* @import url(./reset.css); */
-@import './reset.css';
+/* @import './reset.css';
 @import './fonts.css';
+@import './general.css';
+@import './screen.css' screen;
+@import './print.css' print; */
+
 :root{
   font-size: 60px;
 }
-*{
-  box-sizing: border-box;
-}
-h1{
-  font-family: 'Square Peg', cursive;
-}
-h2{
-  font-family: Lato, sans-serif;
-  font-style: italic;
-}
+
