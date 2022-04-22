@@ -1,0 +1,24 @@
+.user-card{
+  display: flex;
+  flex-direction: column;
+
+  border: 3px double teal;
+}
+.user-card > *{
+  flex-basis: 50%;
+}
+.user-card .avatar > img{
+  width: 100%;
+  object-fit: cover;
+}
+.user-card .full-name{
+  margin: auto;
+  padding: 3rem;
+}
+
+@media (min-width: 768px){
+  .user-card{
+    flex-direction: row;
+  }
+  
+}

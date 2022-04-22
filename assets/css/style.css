@@ -1,9 +1,13 @@
 @import './reset.css';
 @import './fonts.css';
 @import './mainInfo.css';
+@import './userCard.css';
 
 :root{
   font-size: 20px;
+}
+*{
+  box-sizing: border-box;
 }
 h2{
   color: teal;
