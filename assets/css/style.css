@@ -1,0 +1,19 @@
+:root{
+  font-size: 18px;
+}
+body{
+  background-color: cornsilk;
+}
+ul{
+  list-style: none;
+  font-size: 0;
+}
+li{
+  display: inline-block;
+  padding: 1rem;
+  background-color:aquamarine;
+  font-size: 1rem;
+}
+p{
+  text-indent: 3rem;
+}
