@@ -1,0 +1,12 @@
+.main-info > h2 {
+  color: tomato;
+  font-family: Lato;
+}
+
+@media print{
+  .main-info > h2 {
+    color: #000;
+    border: 1px solid #000;
+  }
+}
+
