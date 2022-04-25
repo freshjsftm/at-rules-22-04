@@ -2,7 +2,19 @@
   display: flex;
   flex-direction: column;
 
+  min-width: 320px;
+  width: 90%;
+  max-width: 440px;
+
+  /* min-height: 300px;
+  height: auto; */
+
+  margin: auto;
+  padding: 2rem;
+
   border: 3px double teal;
+
+  background-color: aqua;
 }
 .user-card > *{
   flex-basis: 50%;
@@ -12,13 +24,11 @@
   object-fit: cover;
 }
 .user-card .full-name{
-  margin: auto;
-  padding: 3rem;
+  /* margin: auto; */
+  /* padding: 3rem; */
 }
-
 @media (min-width: 768px){
   .user-card{
     flex-direction: row;
-  }
-  
+  } 
 }
