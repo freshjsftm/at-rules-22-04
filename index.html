@@ -5,22 +5,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>At-rules, responsive</title>
-  <!-- <link rel="stylesheet" href="./assets/css/fonts.css">
-  <link rel="stylesheet" href="./assets/css/reset.css"> -->
+  <link rel="stylesheet" href="./assets/css/fonts.css">
+  <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/style.css">
-  <!-- <link rel="stylesheet" href="./assets/css/mainInfo.css"> -->
-  <!-- <link rel="stylesheet" href="./assets/css/userCard.css"> -->
+  <link rel="stylesheet" href="./assets/css/image.css">
 </head>
 <body>
-  <h1>Heading</h1>
-  <h2>Heading</h2>
-  <section class="main-info">
-    <h2>title main info</h2>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero consequuntur nihil repudiandae, consequatur qui ut alias dolorum veritatis quasi omnis amet vitae esse ullam, quaerat ipsa vero porro dolore a, eos error veniam. Voluptate hic odio delectus. Maxime facilis culpa, accusamus doloremque ipsa illum aperiam necessitatibus rem, consequatur dicta et.</p>
-  </section>
-  <article class="user-card">
-    <div class="avatar"><img src="./assets/images/musk.webp" alt=""></div>
-    <div class="full-name"> <h2>Elon Musk</h2> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, quidem!</p></div>
-  </article>
+  <picture>
+    <source srcset="./assets/images/car2_3840.webp" media="(min-width:992px) and (min-resolution:200)">
+    <source srcset="./assets/images/car_1190.webp" media="(min-width:992px)">
+    <source srcset="./assets/images/car_1190.jpg" media="(min-width:992px)">
+        
+    <img class="image" src="./assets/images/car_800.jpg" alt="car">
+  </picture>
+  
 </body>
 </html>
